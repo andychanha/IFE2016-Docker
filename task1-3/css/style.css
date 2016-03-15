@@ -1,0 +1,12 @@
+
+.img{
+    width: 150px;
+    height: 150px;
+    background: url(../image/docker.png) no-repeat;
+    background-size:100px 100px;
+
+}
+html,body{
+    height: 100%;
+
+}
