@@ -1,0 +1,28 @@
+{
+  "name": "ife2016docker",
+  "version": "1.0.0",
+  "description": "ife2016docker",
+  "main": "bundle.js",
+  "dependencies": {},
+  "devDependencies": {
+    "file-loader": "^0.8.5",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whisperfairy/IFE2016-Docker.git"
+  },
+  "keywords": [
+    "ife2016"
+  ],
+  "author": "whisperHu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whisperfairy/IFE2016-Docker/issues"
+  },
+  "homepage": "https://github.com/whisperfairy/IFE2016-Docker#readme"
+}
