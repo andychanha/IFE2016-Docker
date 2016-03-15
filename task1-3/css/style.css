@@ -3,7 +3,7 @@
     width: 150px;
     height: 150px;
     background: url(../image/docker.png) no-repeat;
-    background-size:100px 100px;
+    background-size:100% 100%;
 
 }
 html,body{
