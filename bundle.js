@@ -52,6 +52,7 @@
 	 */
 	__webpack_require__(1);
 
+
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
@@ -87,7 +88,7 @@
 
 
 	// module
-	exports.push([module.id, "\r\n.img{\r\n    width: 150px;\r\n    height: 150px;\r\n    background: url(" + __webpack_require__(4) + ") no-repeat;\r\n    background-size:100% 100%;\r\n\r\n}\r\nhtml,body{\r\n    height: 100%;\r\n\r\n}", ""]);
+	exports.push([module.id, "html,body{\r\n    height: 100%;\r\n\r\n}\r\n.container\r\n{\r\n    display: flex;\r\n    background: gainsboro;\r\n\r\n}\r\n\r\n.main\r\n{\r\n    padding: 20px;\r\n    background: white;\r\n}\r\n.main-left\r\n{\r\n    width: 200px;\r\n    height: 120px;\r\n}\r\n.main-center\r\n{\r\n   flex:1\r\n}\r\n.main-right\r\n{\r\n    width: 120px;\r\n    height: 420px;\r\n\r\n}\r\n.img{\r\n    width: 80px;\r\n    height: 80px;\r\n    background: url(" + __webpack_require__(4) + ") no-repeat;\r\n    background-size:100% 100%;\r\n    display: inline-block;\r\n    margin: 20px;\r\n\r\n}\r\n", ""]);
 
 	// exports
 
