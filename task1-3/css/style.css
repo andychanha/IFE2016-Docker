@@ -1,12 +1,91 @@
-
-.img{
-    width: 150px;
-    height: 150px;
-    background: url(../image/docker.png) no-repeat;
-    background-size:100% 100%;
-
-}
 html,body{
     height: 100%;
 
+}
+div .inline
+{
+    display: inline-block;
+    flex:1;
+   font-weight: bold;
+    font-style: italic;
+}
+.container
+{
+     display: flex;
+     background: #eee;
+     padding: 20px;
+}
+
+.main
+{
+    padding: 20px;
+    background: white;
+
+}
+.main-left
+{
+    width: 200px;
+    height: 120px;
+    display: flex;
+}
+.main-center
+{
+    flex:1;
+    height: auto;
+    align-self: flex-start;
+    margin: 0 20px;
+}
+.main-right
+{
+    width: 80px;
+    height: 380px;
+
+}
+.img{
+    width: 80px;
+    height: 80px;
+    background: url(../image/docker.png) no-repeat;
+    background-size:100% 100%;
+    display: inline-block;
+
+}
+ul
+{
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+
+}
+li
+{
+   margin-bottom: 20px;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+li:nth-last-child(1)
+{
+    margin-bottom: 0px;
+
+
+}
+li.mongo
+{
+    background: url(../image/mongo.jpg) no-repeat;
+    background-size:100% 100%;
+}
+li.express
+{
+    background: url(../image/EXPRESS.png) no-repeat;
+    background-size:100% 100%;
+}
+li.angular
+{
+    background: url(../image/angular.jpg) no-repeat;
+    background-size:100% 100%;
+}
+li.nodejs
+{
+    background: url(../image/nodejs.jpg) no-repeat;
+    background-size:100% 100%;
 }
