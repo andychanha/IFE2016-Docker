@@ -87,7 +87,7 @@
 
 
 	// module
-	exports.push([module.id, "\r\n.img{\r\n    width: 80px;\r\n    height: 80px;\r\n    background-size: cover;\r\n    background: url(" + __webpack_require__(4) + ") no-repeat;\r\n}\r\nhtml,body{\r\n    height: 100%;\r\n\r\n}", ""]);
+	exports.push([module.id, "\r\n.img{\r\n    width: 150px;\r\n    height: 150px;\r\n    background: url(" + __webpack_require__(4) + ") no-repeat;\r\n    background-size:100% 100%;\r\n\r\n}\r\nhtml,body{\r\n    height: 100%;\r\n\r\n}", ""]);
 
 	// exports
 
